@@ -1,0 +1,44 @@
+{
+  "id": "1759275",
+  "name": "CF",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "49734",
+      "name": "windows",
+      "font_class": "34",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "1160081",
+      "name": "android",
+      "font_class": "android",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "1190346",
+      "name": "ipad",
+      "font_class": "ipad",
+      "unicode": "e8aa",
+      "unicode_decimal": 59562
+    },
+    {
+      "icon_id": "3832827",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "6174562",
+      "name": "iPhone",
+      "font_class": "iPhone",
+      "unicode": "e66c",
+      "unicode_decimal": 58988
+    }
+  ]
+}
