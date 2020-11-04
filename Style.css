@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+:root {
+  --primary-color: #ffffff;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+}
+
+#banner {
+  padding-top: 130px;
+}
+
+#banner .row .logo img {
+  width: 250px;
+  height: 100px;
+}
+
+#banner .row .login {
+  width: 450px;
+  min-height: 320px;
+  border-radius: 8px;
+  background-color: var(--primary-color);
+}
+
+#banner .row .login .quitlogin {
+  text-align: center;
+}
+
+#banner .row .login .quitlogin form .formSize {
+  width: 270px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+#banner .row .login .tailMenu {
+  letter-spacing: 0.1em;
+}
+
+#banner .row .login .tailMenu a {
+  color: black;
+}
+
+#logo {
+  margin-top: 200px;
+  margin-left: 500px;
+  color: var(--primary-color);
+}
+
+#logo ul li {
+  margin: 0 20px;
+  text-align: center;
+  float: left;
+  cursor: pointer;
+}
+
+#logo ul li .iconfont {
+  font-size: 35px;
+}
+
+#logo ul li:hover {
+  animation: move 3s ease-in-out;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0%);
+  }
+
+  10% {
+    transform: translateY(-25%);
+  }
+}
+
+#footer {
+  margin-top: 70px;
+  color: var(--primary-color);
+}
+
+#footer h4 {
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+
+#footer a {
+  color: var(--primary-color);
+}
