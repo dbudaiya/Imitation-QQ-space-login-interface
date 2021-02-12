@@ -6,4 +6,4 @@ setInterval(() => {
   i++;
   i = i % 2;
   body.style.backgroundImage = "url(" + imgs[i] + ")"
-}, 3000)
+}, 13000)
